@@ -17,17 +17,14 @@ public class VoterService {
 	
 	
 	public Voter addVoter(Voter voter) {
-		
 		return voterRepository.save(voter);
 	}
 
 	public List<Voter> getAllVoters() {
-		
 		return voterRepository.findAll();
 	}
 
 	public Optional<Voter> getVotersById(Integer id) {
-		
 		return voterRepository.findById(id);
 	}
 
