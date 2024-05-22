@@ -17,17 +17,17 @@ public class VoterService {
 	
 	
 	public Voter addVoter(Voter voter) {
-		// TODO Auto-generated method stub
+		
 		return voterRepository.save(voter);
 	}
 
 	public List<Voter> getAllVoters() {
-		// TODO Auto-generated method stub
+		
 		return voterRepository.findAll();
 	}
 
 	public Optional<Voter> getVotersById(Integer id) {
-		// TODO Auto-generated method stub
+		
 		return voterRepository.findById(id);
 	}
 
