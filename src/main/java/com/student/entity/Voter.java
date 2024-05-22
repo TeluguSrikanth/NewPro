@@ -38,5 +38,12 @@ public class Voter {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public Voter(Integer id, String name, String address, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.age = age;
+	}
 	
 }
